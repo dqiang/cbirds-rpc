@@ -1,0 +1,12 @@
+server:
+  port: 9611
+
+cbirds:
+  rpc:
+    port: 3618
+#    host: 127.0.0.1
+  zk:
+    server-addr: 127.0.0.1:2181
+    retry-sleetime: 1000
+    register-path: /myrpc
+    retry-times: 5

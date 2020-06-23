@@ -1,0 +1,30 @@
+{
+  "properties": [
+    {
+      "name":"cbirds.rpc.port",
+      "type":"java.lang.Integer",
+      "defaultValue": 3618,
+      "description": "RPC SERVER BIND PORT"
+    },
+    {
+    "name":"cbirds.zk.server-addr",
+    "type":"java.lang.String",
+    "defaultValue": "localhost:2181",
+    "description": "Zookeeper server address"
+  },{
+    "name":"cbirds.zk.retry-times",
+    "type":"java.lang.Integer",
+    "defaultValue": 5,
+    "description": "Zookeeper RetryPolicy Max retries"
+  },{
+    "name":"cbirds.zk.retry-sleetime",
+    "type":"java.lang.Integer",
+    "defaultValue": 1000,
+    "description": "Zookeeper RetryPolicy Sleep time"
+  },{
+    "name":"cbirds.zk.register-path",
+    "type":"java.lang.String",
+    "defaultValue": "/cbirds-rpc",
+    "description": "Zookeeper Register Root Path"
+  }]
+}
